@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <chrono>
-#include "boost/boost_vector.cpp"
+#include "../../lei/boost/boost_vector.cpp"
 
 struct Trio {
     double x;
