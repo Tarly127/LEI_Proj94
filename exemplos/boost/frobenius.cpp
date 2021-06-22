@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <vector>
-#include "boost/boost_matrix.cpp"
+#include "../../lei/boost/boost_vector.cpp"
 
 BOOST_COMPUTE_FUNCTION(double, mapsquare, (double x),
 							{
