@@ -3,6 +3,8 @@
 #include <vector>
 #include "../../lei/boost/boost_vector.cpp"
 
+namespace lei {
+
 BOOST_COMPUTE_FUNCTION(double, mapsquare, (double x),
 							{
 								return x * x;
@@ -52,4 +54,5 @@ int main(int argc, char** argv){
     delete [] matrix;
 
 	return 0;
+}
 }
