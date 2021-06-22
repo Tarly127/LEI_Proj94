@@ -4,6 +4,8 @@
 #include <chrono>
 #include "../../lei/boost/boost_vector.cpp"
 
+namespace lei {
+
 struct Trio {
     double x;
     double y;
@@ -69,4 +71,5 @@ int main(int argc, char** argv){
          << duration.count() << " microseconds" << std::endl;
 
 	return 0;
+}
 }
